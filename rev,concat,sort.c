@@ -116,9 +116,7 @@ void sort1()
             p2 = p2->add;
         }
         last = p2;
-        
-        // Reset p1 for next pass
-        p1 = head1;
+        p1 = p1->add;
     }
 
     printf("Sorted first list: ");
@@ -188,3 +186,4 @@ int main()
     }
     return 0;
 }
+
